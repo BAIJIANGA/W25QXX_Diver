@@ -1,0 +1,15 @@
+.\output\stm32_eval_spi_flash.o: ..\..\Sources\Library_Files\stm32_eval_spi_flash.c
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm32_eval_spi_flash.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm3210e_eval.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm32f10x.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\CMSIS_Files\core_cm3.h
+.\output\stm32_eval_spi_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\CMSIS_Files\core_cmInstr.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\CMSIS_Files\core_cmFunc.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\system_stm32f10x.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm32f10x_conf.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm32f10x_fsmc.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm32f10x.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm32f10x_gpio.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm32f10x_rcc.h
+.\output\stm32_eval_spi_flash.o: ..\..\Includes\Library_Files\stm32f10x_spi.h

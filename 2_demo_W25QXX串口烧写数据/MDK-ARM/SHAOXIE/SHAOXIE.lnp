@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"shaoxie\startup_stm32f103xe.o"
+"shaoxie\main.o"
+"shaoxie\stm32f1xx_it.o"
+"shaoxie\stm32f1xx_hal_msp.o"
+"shaoxie\stm32f1xx_hal_gpio_ex.o"
+"shaoxie\stm32f1xx_hal_tim.o"
+"shaoxie\stm32f1xx_hal_tim_ex.o"
+"shaoxie\stm32f1xx_hal.o"
+"shaoxie\stm32f1xx_hal_rcc.o"
+"shaoxie\stm32f1xx_hal_rcc_ex.o"
+"shaoxie\stm32f1xx_hal_gpio.o"
+"shaoxie\stm32f1xx_hal_dma.o"
+"shaoxie\stm32f1xx_hal_cortex.o"
+"shaoxie\stm32f1xx_hal_pwr.o"
+"shaoxie\stm32f1xx_hal_flash.o"
+"shaoxie\stm32f1xx_hal_flash_ex.o"
+"shaoxie\stm32f1xx_hal_exti.o"
+"shaoxie\stm32f1xx_hal_spi.o"
+"shaoxie\stm32f1xx_hal_uart.o"
+"shaoxie\stm32f1xx_hal_usart.o"
+"shaoxie\system_stm32f1xx.o"
+"shaoxie\debug.o"
+"shaoxie\w25qxx.o"
+--library_type=microlib --strict --scatter "SHAOXIE\SHAOXIE.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SHAOXIE.map" -o SHAOXIE\SHAOXIE.axf

@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\output\dev_inf.o"
+".\output\loader_src.o"
+".\output\stm32f10x_gpio.o"
+".\output\stm32f10x_rcc.o"
+".\output\system_stm32f10x.o"
+".\output\stm32_eval_spi_flash.o"
+".\output\stm32f10x_spi.o"
+".\output\stm3210e_eval.o"
+".\output\bsp_spi_flash.o"
+".\output\stm32f10x_dma.o"
+".\output\dma.o"
+".\output\delay.o"
+--strict --scatter "Target.lin"
+--diag_suppress L6305 --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Output\M25P64_STM3210E-EVAL.map" -o .\Output\M25P64_STM3210E-EVAL.axf

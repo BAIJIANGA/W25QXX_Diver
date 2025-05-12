@@ -1,0 +1,12 @@
+.\output\system_stm32f10x.o: ..\..\Sources\Library_Files\system_stm32f10x.c
+.\output\system_stm32f10x.o: ..\..\Includes\Library_Files\stm32f10x.h
+.\output\system_stm32f10x.o: ..\..\Includes\CMSIS_Files\core_cm3.h
+.\output\system_stm32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\system_stm32f10x.o: ..\..\Includes\CMSIS_Files\core_cmInstr.h
+.\output\system_stm32f10x.o: ..\..\Includes\CMSIS_Files\core_cmFunc.h
+.\output\system_stm32f10x.o: ..\..\Includes\Library_Files\system_stm32f10x.h
+.\output\system_stm32f10x.o: ..\..\Includes\Library_Files\stm32f10x_conf.h
+.\output\system_stm32f10x.o: ..\..\Includes\Library_Files\stm32f10x_fsmc.h
+.\output\system_stm32f10x.o: ..\..\Includes\Library_Files\stm32f10x.h
+.\output\system_stm32f10x.o: ..\..\Includes\Library_Files\stm32f10x_gpio.h
+.\output\system_stm32f10x.o: ..\..\Includes\Library_Files\stm32f10x_rcc.h

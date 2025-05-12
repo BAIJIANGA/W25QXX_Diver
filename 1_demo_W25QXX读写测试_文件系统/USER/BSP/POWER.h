@@ -1,0 +1,21 @@
+#ifndef __POWER__
+#define __POWER__
+
+#define POWER_RCC_ENABLE()  __HAL_RCC_GPIOA_CLK_ENABLE()
+#define POWER_KEY_RCC_ENABLE()  __HAL_RCC_GPIOB_CLK_ENABLE()
+
+#define POWER_GPIO  GPIOA
+#define POWER_KEY_GPIO  GPIOB
+
+#define POWER_PIN   GPIO_PIN_0
+#define POWER_KEY_PIN   GPIO_PIN_12
+
+#define POWER(x)    x?HAL_GPIO_WritePin (POWER_GPIO,POWER_PIN,GPIO_PIN_SET):HAL_GPIO_WritePin (POWER_GPIO,POWER_PIN,GPIO_PIN_RESET)
+
+#define POWER_KEY()      (HAL_GPIO_ReadPin(POWER_KEY_GPIO,POWER_KEY_PIN))
+
+void POWER_OPEN(void);
+void POWER_CLOSE(void);
+void POWER_Init(void);
+void POWER_Check(void);
+#endif

@@ -1,0 +1,16 @@
+.\output\loader_src.o: ..\..\Sources\Loader_Files\Loader_Src.c
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm32f10x.h
+.\output\loader_src.o: ..\..\Includes\CMSIS_Files\core_cm3.h
+.\output\loader_src.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\loader_src.o: ..\..\Includes\CMSIS_Files\core_cmInstr.h
+.\output\loader_src.o: ..\..\Includes\CMSIS_Files\core_cmFunc.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\system_stm32f10x.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm32f10x_conf.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm32f10x_fsmc.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm32f10x.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm32f10x_gpio.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm32f10x_rcc.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm32_eval_spi_flash.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm3210e_eval.h
+.\output\loader_src.o: ..\..\Includes\Library_Files\stm32f10x_spi.h
+.\output\loader_src.o: ..\..\Sources\Library_Files\bsp_spi_flash.h
