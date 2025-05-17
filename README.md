@@ -1,4 +1,4 @@
-# W25QXX_Diver_v1.0
+# W25QXX_Driver_v1.0
 W25QXX驱动以及一些demo
 
 W25QXX_Driver文件夹为 W25QXX的驱动源文件 把头文件改了 直接加进去编译就行 如果库有问题或者有什么意见请在B站及时反馈
